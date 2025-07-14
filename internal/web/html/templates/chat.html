@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MCP with Go</title>
+
+    <meta name="description" content="MCP Go - Consultor inteligente para encontrar o carro perfeito." />
+    
+    <link rel="stylesheet" href="/static/css/chat.css" />
+</head>
+<body>
+    <main class="chat-container" role="main" aria-label="Chat de consultoria para escolha de carros">
+        <header class="chat-header" role="banner" tabindex="0">
+            🤖MCP Go - Seu consultor inteligente para o carro ideal.
+        </header>
+
+        <section id="messages" class="chat-messages" role="log" aria-live="polite" aria-relevant="additions" tabindex="0">
+            <article class="message bot-message" role="article" aria-label="Mensagem do assistente">
+                ⚡ Oi! Estou aqui para ajudar você a escolher o carro ideal para seu momento de vida, com opções e financiamentos personalizados. Por onde quer começar?
+            </article>
+        </section>
+
+        <form class="chat-input" id="chatForm" aria-label="Formulário de envio de mensagens">
+            <input 
+                type="text" 
+                id="messageInput" 
+                name="message" 
+                placeholder="Digite sua pergunta..." 
+                autocomplete="off" 
+                aria-label="Campo para digitar mensagem" 
+                required 
+                autofocus
+                aria-required="true"
+            />
+            <button type="submit" id="sendButton" aria-label="Enviar mensagem">Enviar</button>
+        </form>
+    </main>
+
+    <script src="/static/js/chat.js" defer></script>
+</body>
+</html>
+

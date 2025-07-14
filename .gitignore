@@ -1,0 +1,100 @@
+# Binários
+main
+web-server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+*.out
+/tmp/
+coverage.out
+coverage.html
+
+# Dados do banco
+pgdata/
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup de banco
+*.sql.bak
+*.dump
+backup/
+backups/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e depuração
+*.log
+*.log.*
+logs/
+debug.log
+error.log
+
+# Arquivos de ambiente e configuração sensível
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.json
+config.yaml
+config.yml
+secrets.json
+credentials.json
+
+# Chaves e certificados
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+id_rsa
+id_dsa
+*.ppk
+.ssh/
+
+# Tokens e autenticação
+token.txt
+api_key.txt
+.auth
+.credentials
+jwt_secret
+session_secret
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# Cache e dependências
+vendor/
+node_modules/
+.cache/
+go.sum.bak
+
+# IDEs e editores
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Arquivos específicos do projeto
+uploads/
+downloads/
+storage/
+private/
